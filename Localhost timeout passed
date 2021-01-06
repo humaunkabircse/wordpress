@@ -11,3 +11,9 @@ max_file_uploads = 200
 \phpmyadmin\libraries\config.default.php
 
 Open this configuration file in any editor and change $cfg['ExecTimeLimit'] = 300; to $cfg['ExecTimeLimit'] = 0;
+
+Restart your localhost, now you don't have any time limit.
+
+Or you can use MySQL command line to import your unzipped SQL file directly, something like below:
+
+mysql -u username -p database_name < my_unzipped_import_file.sql
