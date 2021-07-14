@@ -1,0 +1,8 @@
+/** Head Font Preloading **/
+function font_preloading_preload_key_requests() { ?>
+	<link rel="preload" as="font" type="font/woff" href="https://www.texmartonline.com/wp-content/themes/elessi-theme/assets/font-nasa/nasa-font.woff" crossorigin="anonymous">
+	<link rel="preload" as="font" type="font/woff" href="https://www.texmartonline.com/wp-content/themes/elessi-theme/assets/font-pe-icon-7-stroke/fonts/Pe-icon-7-stroke.woff" crossorigin="anonymous">
+    <link rel="preload" as="font" type="font/woff2" href="https://www.texmartonline.com/wp-content/themes/elessi-theme/assets/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0" crossorigin="anonymous">
+
+    <?php }
+add_action( 'wp_head', 'font_preloading_preload_key_requests' );
