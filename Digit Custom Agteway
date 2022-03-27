@@ -1,0 +1,14 @@
+SMS Gateway URL:
+http://www.btssms.com/smsapi?api_key=C200050462318628337552.56536111&type=text&contacts={to}&senderid=8809601001963&msg={message}
+
+HTTP Header:
+api_key=C200050462318628337552.56536111,
+type=text,
+contacts={to},
+senderid=8809601001963,
+msg={message}
+
+Gateway Parameters:
+contacts : {to},
+msg : {message},
+senderid : {sender_id}
